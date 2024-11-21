@@ -1,0 +1,130 @@
+.product {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    background-color: #f6f6f6;
+    padding: 50px 150px;
+    border-radius: 30px;
+}
+
+.product .product-img-group {
+    overflow-x: hidden;
+    width: 600px;
+}
+
+.product .product-img {
+    width: 600px;
+    display: flex;
+    transition: all .5s;
+}
+
+.product .product-img img {
+    width: 100%;
+}
+
+.product .product-img-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .product-img-list img {
+    width: 150px;
+    padding: 10px 23px;
+    border-radius: 10px;
+}
+.product .product-img-list img:hover {
+    background-color: #007bff6a; 
+}
+
+.product-group {
+    width: 600px;
+    margin-right: 50px;
+}
+
+.product-content .price {
+    font-size: 3rem;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+/* ------------------- Product Rate ------------------- */
+.stars {
+    display: flex;
+}
+.stars i {
+    color: rgb(255, 183, 0);
+}
+
+.product .product-content .product-rate-group {
+    display: flex;
+}
+
+.product .product-content .product-rate-group .product-rate {
+    display: flex;
+    gap: 10px;
+    height: 30px;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.product .product-content .product-rate-group .product-rate:first-child {
+    padding-left: 0;
+}
+
+.product .product-content .product-rate-group .product-rate:nth-child(2) {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+/* ----------------------- Description -------------------- */
+
+.description div {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.description>div:first-child {
+    border-top: 1px solid #bdbdbd;
+}
+.description>div:last-child {
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description div h5 {
+    width: 20%;
+}
+
+.description div p,
+.quantite-box {
+    width: 80%;
+}
+
+/* -------------------- Quantite ------------------------ */
+
+.quantite {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    height: 44px;
+}
+
+.quantite .quantite-button {
+    width: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+}
+
+.panier {
+    margin-top: 200px;
+}
